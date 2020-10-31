@@ -1,3 +1,24 @@
-[data-author-id="264062457448759296"] .avatar-1BDn8e{
-    box-shadow: 0 0 10px 0 #e65589;
+/* Pre stuff */
+.cozy-3raOZG.groupStart-23k01U .contents-2mQqc9::after{
+    content:"";
+    position: absolute;
+    top:2px;
+    left: 16px;
+    margin-top: calc(4px - .125rem);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.avatar-1BDn8e.clickable-1bVtEA:active{
+    transform: none;
+}
+
+/* Users */
+
+/*A user*/
+[data-author-id="264062457448759296"] .contents-2mQqc9::after{
+    box-shadow: 0 0 10px 0 #e65589, inset 0 0 0 2.5px #e65589;
 }
