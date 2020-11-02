@@ -21,4 +21,21 @@
 /*A user*/
 [data-author-id="264062457448759296"] .contents-2mQqc9::after{
     box-shadow: 0 0 10px 0 #e65589, inset 0 0 0 2.5px #e65589;
+    transition: box-shadow .4s, transform .4s;
+}
+
+[data-author-id="264062457448759296"]:hover .contents-2mQqc9::after{
+    box-shadow: 0 0 20px 0 #e65589, inset 0 0 0 4px #e65589;
+    transform: scale(1.1);
+}
+
+/*botato*/
+[data-author-id="440990343899643943"] .contents-2mQqc9::after{
+    box-shadow: 0 0 10px 0 #7289da, inset 0 0 0 2.5px #7289da;
+    transition: box-shadow .4s, transform .4s;
+}
+
+[data-author-id="440990343899643943"]:hover .contents-2mQqc9::after{
+    box-shadow: 0 0 20px 0 #7289da, inset 0 0 0 4px #7289da;
+    transform: scale(1.1);
 }
