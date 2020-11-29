@@ -20,12 +20,12 @@
 
 /*A user*/
 [data-author-id="264062457448759296"] .contents-2mQqc9::after{
-    box-shadow: 0 0 10px 0 #e65589, inset 0 0 0 2.5px #e65589;
+    box-shadow: 0 0 10px 0 #ffc0cc, inset 0 0 0 2.5px #ffc0cc;
     transition: box-shadow .4s, transform .4s;
 }
 
 [data-author-id="264062457448759296"]:hover .contents-2mQqc9::after{
-    box-shadow: 0 0 20px 0 #e65589, inset 0 0 0 4px #e65589;
+    box-shadow: 0 0 20px 0 #ffc0cc, inset 0 0 0 4px #ffc0cc;
     transform: scale(1.1);
 }
 
@@ -37,5 +37,16 @@
 
 [data-author-id="440990343899643943"]:hover .contents-2mQqc9::after{
     box-shadow: 0 0 20px 0 #7289da, inset 0 0 0 4px #7289da;
+    transform: scale(1.1);
+}
+
+/*EnderXH🌺*/
+[data-author-id="274213297316691968"] .contents-2mQqc9::after{
+    box-shadow: 0 0 10px 0 #b35afc, inset 0 0 0 2.5px #b35afc;
+    transition: box-shadow .4s, transform .4s;
+}
+
+[data-author-id="274213297316691968"]:hover .contents-2mQqc9::after{
+    box-shadow: 0 0 20px 0 #b35afc, inset 0 0 0 4px #b35afc;
     transform: scale(1.1);
 }
